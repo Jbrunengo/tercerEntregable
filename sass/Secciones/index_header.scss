@@ -1,0 +1,12 @@
+.index_header{
+    @include flex ( row, space-around, center);
+    align-items: center;
+    font-size: $medium;
+    border-bottom: solid gold 1px;
+    }
+.insumos{
+    img{
+        height: 40px;
+        width: auto;
+    }
+}

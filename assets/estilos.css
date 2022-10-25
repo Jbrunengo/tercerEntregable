@@ -1,0 +1,21 @@
+.grilla{
+    display: grid;
+    grid-template-areas: 
+    "esinsectacion  desratizacion desinfeccion ";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 5px;
+    border: solid  black;
+    }
+    #desinsectacion{
+        grid-area: desinsectacion;
+        border: solid black;
+    }
+    #desratizacion{
+        grid-area: desratizacion;
+        border: solid green;
+    }
+    #desinfeccion{
+        grid-area: desinfeccion;
+        border: solid rebeccapurple;
+    }

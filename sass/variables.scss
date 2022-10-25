@@ -1,0 +1,24 @@
+/*Colores*/
+$fondotitulo: rgb(187, 187, 187);
+$font_color: grey;
+
+/*Espaciados*/
+$large: 0.5rem;
+$medium: 0.2rem;
+$small: 0.1rem;
+
+/*Tamaño de fuente*/
+$large: 5.2em;
+$medium: 3.2em;
+$small: 2.2em;
+
+/*titulos html*/
+#h2{
+    background-color: #007bff;
+    color: aliceblue;
+    border-radius: 5px;
+    letter-spacing: 0.2rem;
+    font-size: $medium;
+}
+p{font-size: $small;
+}

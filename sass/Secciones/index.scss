@@ -1,0 +1,27 @@
+.row{
+    margin: 45px 15px;
+    font-size: $large;
+    .card-img-bottom{
+        height: 169px;
+        width: auto;
+    }
+    .card-body a{
+        font-size: $small;
+        color: grey;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .card-img-bottom{
+        margin-bottom: 100px;
+        width: max-content;
+    }
+}
+.presentacion{
+    font-size: $medium;
+    text-align: justify;
+    margin: 50px 30px;
+}
+p{
+    font-size: initial;
+}

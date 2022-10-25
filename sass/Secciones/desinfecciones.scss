@@ -1,0 +1,50 @@
+
+/*grilla de tipos de desinfecciones para pantallas grandes*/
+.grilla{
+    display: grid;
+    grid-template-areas: 
+    "desinsectacion  desratizacion desinfeccion ";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    text-align: justify;
+    margin: 15px;
+    }
+    #desinsectacion{
+        grid-area: desinsectacion;
+    }
+    #desratizacion{
+        grid-area: desratizacion;
+ 
+    }
+    #desinfeccion{
+        grid-area: desinfeccion;
+    }
+   .img-desinfecciones{
+    height: 185px;
+    width: 220px;
+    border-radius: 20px;
+    border: solid black 0.5px;
+    align-self: center;
+    align-items: center;
+    transition: 3s;
+    margin-top: 15px;
+}
+
+.img-desinfecciones:hover{
+    transform: scale(2.5);
+}
+
+@media screen and (max-width: 600px){ /*queries para mobile*/
+ 
+    .grilla{ /*grilla */
+    display: grid;
+    grid-template-areas: 
+    "desinsectacion"
+    "desratizacion"
+    "desinfeccion";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    }
+}
